@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Translation</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="header">Translation App</h1>
+    <main class="main">
+      <textarea
+        class="text-area"
+        id="input"
+        placeholder="Type anything here that you want to translate"
+      ></textarea>
+      <div class="radio-class">
+        <div class="radio-value">
+          <input
+            type="radio"
+            id="dothraki"
+            name="language"
+            value="dothraki"
+            checked
+          />
+          <label for="dothraki">Dothraki</label>
+        </div>
+        <div class="radio-value">
+          <input type="radio" id="klingon" name="language" value="klingon" />
+          <label for="klingon">Kingon</label>
+        </div>
+        <div class="radio-value">
+          <input type="radio" id="yoda" name="language" value="yoda" />
+          <label for="yoda">Yoda</label>
+        </div>
+      </div>
+      <button type="button" id="btnClicked" class="button">Translate</button>
+      <div class="output" id="output"></div>
+    </main>
+    <footer class="footer">
+      <p class="about-text">Translate from option given above</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    z-index: 10;
+    background-color: #1976d2;
+    color: white;
+}
+
+.main {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    margin-top: 5rem;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text-area,
+.output {
+    position: relative;
+    color: black;
+    width: 100%;
+    height: 8em;
+    padding: 1em;
+    font-size: 18px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.button {
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 1em;
+    background-color: #1976d2;
+}
+
+.output-text {
+    height: 8em;
+}
+
+.footer {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+    background-color: #1976d2;
+    color: white;
+    margin-top: 6rem;
+}
+
+.about-text {
+    max-width: 50%;
+    padding: 2rem;
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.radio-class {
+    display: flex;
+    flex-direction: row;
+}
+
+.radio-value {
+    display: flex;
+    align-items: center;
+    margin-right: 0.5em;
+    font-size: 20px;
+}
